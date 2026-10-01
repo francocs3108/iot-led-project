@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Node / React Native / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PostgreSQL / datos locales
+*.sql.dump
+*.backup
+
+# Temporales
+*.tmp
+*.swp
